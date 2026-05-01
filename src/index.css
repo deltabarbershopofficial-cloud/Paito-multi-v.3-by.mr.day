@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-excel-green: #217346;
+  --color-excel-light: #e6f0e9;
+  --color-bg-body: #f3f3f3;
+  --color-border-color: #d1d1d1;
+  --color-text-main: #333;
+  --color-accent: #ffeb3b; 
+  --color-dark-accent: #fbc02d;
+  
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-body);
+    color: var(--color-text-main);
+  }
+}
